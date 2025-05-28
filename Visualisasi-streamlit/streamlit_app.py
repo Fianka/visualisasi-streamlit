@@ -5,7 +5,7 @@ from collections import Counter
 import re
 
 # Setup MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://fianka:finn@cluster0.sbuemvv.mongodb.net/")
 db = client.flo_health
 collection = db.articles
 
